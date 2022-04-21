@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>house details</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0f899d0563.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav id="navBar" class="navbar-white">
+        <a href="index.html">
+            <img src="images/logo-red.png" class="logo">
+        </a>
+        
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Popular Places</a></li>
+            <li><a href="house.html">Travel Outside</a></li>
+            <li><a href="listing.html">Online Package</a></li>
+        </ul>
+        <a href="#" class="Register-btn">Register Now</a>
+        <i class="fas fa-bars" onclick="togglebtn()"></i>
+    </nav>
+    <div class="house-details">
+        <div class="house-title">
+            <h1>wenge house</h1>
+            <div class="row">
+                <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <span>245 Reviews</span>
+                </div>
+                <div>
+                    <p>Location: San Francisco, california, united states</p>
+                </div>
+            </div>
+        </div>
+        <div class="gallery">
+            <div class="gallery-img-1"><img src="images/house-1.png"></div>
+            <div><img src="images/house-2.png"></div>
+            <div><img src="images/house-3.png"></div>
+            <div><img src="images/house-4.png"></div>
+            <div><img src="images/house-5.png"></div>
+        </div>
+        <div class="small-details">
+            <h2>Entire rental unit hosted by brandon</h2>
+            <p>2 guest &nbsp; &nbsp; 2beds &nbsp; &nbsp; 1bathroom</p>
+            <h4>$ 100 / Day</h4>
+        </div>
+        <hr class="line">
+        <form class="check-form">
+            <div>
+               <label>check-in</label>
+               <input type="text" placeholder="add date">
+            </div>
+            <div>
+               <label>check-out</label>
+               <input type="text" placeholder="add date">
+            </div>
+            <div class="guest-field">
+               <label>guest</label>
+               <input type="text" placeholder="2 guest">
+            </div>
+            <button type="submit">check availablity</button>
+        </form>
+
+        <ul class="details-list">
+            <li><i class="fas fa-home"></i> Entire Home
+                <span>You will have the eintire flat for you</span>
+            </li>
+            <li><i class="fas fa-paint-brush"></i> Enhanced Clean
+                <span>You will have the eintire flat for you</span>
+            </li>
+            <li><i class="fas fa-map-marker-alt"></i>Great Location
+                <span>You will have the eintire flat for you</span>
+            </li>
+            <li><i class="fas fa-heart"></i>Great Check in Experience
+                <span>You will have the eintire flat for you</span>
+            </li>
+        </ul>
+        <hr class="line">
+
+        <p class="home-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam, provident. Voluptas quae asperiores consectetur ea rerum eos omnis magnam minima voluptatum. Voluptatum, ipsam sed, fugit porro, voluptas consequuntur aliquam maxime ut perferendis dignissimos optio. Maxime, et! Quis aspernatur veniam incidunt iusto tenetur, adipisci impedit excepturi, nam aliquam laudantium voluptate suscipit!</p>
+        <hr class="line">
+
+        <div class="map">
+            <h3>Location on map</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12942.393829944833!2d50.91426548166624!3d35.80978988567134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8dbc2c7c6a3013%3A0xe947510091307357!2sMehrshahr%20Apple%20Orchard!5e0!3m2!1sen!2s!4v1650556430844!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <b>san franciesco, california</b>
+            <p>Its like a home away from home</p>
+        </div>
+
+        <hr class="line">
+
+        <div class="host">
+            <img src="images/host.png">
+            <div>
+            <h2>Hosted by Brandon</h2>
+            <p><span>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                
+            </span>&nbsp; &nbsp; 245 Reviews &nbsp; &nbsp; Response rate 100% &nbsp; &nbsp; Response Time: 60min</p>
+        </div>
+    </div>
+   <a href="#" class="contact-host">contact Host</a>
+   <div class="container">
+    <div class="footer">
+        <a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
+        <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+        <a href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+        <hr>
+        <P>Copyright 2022</P>
+    </div>
+   </div>
+  <script>
+    var navBar = document.getElementById("navBar");
+
+    function togglebtn(){
+        navBar.classList.toggle("hidemenu");
+    }
+
+  </script>
+</body>
+</html>
